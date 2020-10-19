@@ -84,10 +84,12 @@ main {
 .content {
     background-color:  #0078C1;
 }
-.content img {
+#pepsi {
     position: relative;
-    left: 150px;
-    top: 100px;
+    left: 200px;
+    top: 10px;
+    
+    
 }
 .content h2 {
     color: #fff;
@@ -106,7 +108,7 @@ main {
     position: relative;
     max-width: 600px;
     float: right;
-    top: 250px;
+    top: 160px;
     right: 200px;
     color: #fff;
     
@@ -115,8 +117,8 @@ main {
 }
 .content a {
     position: absolute;
-    left: 1122px;
-    top: 550px;
+    left: 1122px; 
+    top: 550px; 
     text-decoration: none;
     color: #fff;
     font-size: 28px;
@@ -126,7 +128,16 @@ main {
     padding: 5px;
 
 }
-.content ul {
-    position: absolute;
-    left: 10px;
+ #learn {
+     top: 610px;
+ }
+.socials ul li {
+    list-style: none;
+    position: relative;
+    top: 240px;
+    
+    
+}
+#facebook {
+    margin-left: 10px;
 }
