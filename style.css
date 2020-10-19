@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 100vw ;
+    grid-template-rows: 15vh 85vh ;
+    grid-template-areas: 'header'
+                         'content';
+                         
+}
+
+/*header*/
+.header {
+    background-color:#0078C1;
+    
+}
+.header h1 {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    right: 60px;
+
+}
+.header img {
+    position: absolute;
+    top: 15px;
+    left: 40px;
+}
+/*button*/
+
+.dropbtn {
+    background-color: #0078C1;
+    color: #fff;
+    font-size: 34px;
+    position: absolute;
+    right: 10px;
+    top: 38px;
+    min-width: 160px;
+    font-weight: bolder;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 20px;
+}    
+      
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 10px;
+    background-color: #0078C1;
+    min-width: 160px;
+    z-index: 1;
+    top: 74px;
+  }
+  .dropdown-content a {
+    color: #fff;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    
+    
+  }
+ .dropdown-content a:hover {
+     background-color:lightgray;
+ }
+ .dropdown:hover .dropdown-content { 
+    display: block;
+ }
+
+/*content*/
+.content {
+    background-color:  #0078C1;
+}
+.content img {
+    position: relative;
+    left: 150px;
+    top: 100px;
+}
+.content h2 {
+    color: #fff;
+    font-size: 3em;
+    text-transform: uppercase;
+    position: absolute;
+    margin: 10px;
+    bottom: 500px;
+    left: 1100px;
+}
+.content h2 span {
+    font-size: 3em;
+    left: 10px;
+}
+.content p {
+    position: relative;
+    max-width: 600px;
+    float: right;
+    top: 250px;
+    right: 200px;
+    color: #fff;
+    
+    
+
+}
+.content a {
+    position: absolute;
+    left: 1122px;
+    top: 550px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 28px;
+    border-style: solid;
+    border-radius: 20px;
+    font-weight: bolder;
+    padding: 5px;
+
+}
+.content ul {
+    position: absolute;
+    left: 10px;
+}
